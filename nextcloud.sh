@@ -12,9 +12,9 @@ check_docker_installed() {
 
 install_docker() {
     echo "Downloading Docker installation script..."
-    wget -O get-docker.sh https://get.docker.com
+    wget -O get-docker.sh https://get.docker.com > /dev/null
     echo "Making the script executable..."
-    chmod +x get-docker.sh
+    chmod +x get-docker.sh > /dev/null
     echo "Running Docker installation script..."
     ./get-docker.sh
 }
