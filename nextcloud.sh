@@ -36,6 +36,6 @@ echo "downloaded docker compose file"
 
 docker compose up -d
 
-echo "default db is nextcloud/nextcloud/nextcloud/nextcloud/3306"
+echo "default db is nextcloud(db_name)/nextcloud(db_id)/nextcloud(db_password)/nextcloud(db_rootpassword)/3306(db)/8118(nextcloud)"
 
 exit 0
